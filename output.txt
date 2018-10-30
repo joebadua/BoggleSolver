@@ -1,0 +1,924 @@
+1: aba
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+1 2 0 0 
+3 0 0 0 
+0 0 0 0 
+0 0 0 0 
+--------
+2: abas
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+1 2 0 0 
+3 4 0 0 
+0 0 0 0 
+0 0 0 0 
+--------
+3: abase
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+1 2 0 0 
+3 4 0 0 
+0 0 5 0 
+0 0 0 0 
+--------
+4: abaser
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+1 2 0 0 
+3 4 0 0 
+0 0 5 6 
+0 0 0 0 
+--------
+5: abased
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+1 2 0 0 
+3 4 6 0 
+0 0 5 0 
+0 0 0 0 
+--------
+6: aa
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+1 0 0 0 
+2 0 0 0 
+0 0 0 0 
+0 0 0 0 
+--------
+7: aas
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+1 0 0 0 
+2 3 0 0 
+0 0 0 0 
+0 0 0 0 
+--------
+8: as
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+1 0 0 0 
+0 2 0 0 
+0 0 0 0 
+0 0 0 0 
+--------
+9: ba
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+2 1 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+--------
+10: baa
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+2 1 0 0 
+3 0 0 0 
+0 0 0 0 
+0 0 0 0 
+--------
+11: baas
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+2 1 0 0 
+3 4 0 0 
+0 0 0 0 
+0 0 0 0 
+--------
+12: bas
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+2 1 0 0 
+0 3 0 0 
+0 0 0 0 
+0 0 0 0 
+--------
+13: base
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+2 1 0 0 
+0 3 0 0 
+0 0 4 0 
+0 0 0 0 
+--------
+14: baser
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+2 1 0 0 
+0 3 0 0 
+0 0 4 5 
+0 0 0 0 
+--------
+15: based
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+2 1 0 0 
+0 3 5 0 
+0 0 4 0 
+0 0 0 0 
+--------
+16: bawd
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 1 0 0 
+2 0 4 0 
+0 3 0 0 
+0 0 0 0 
+--------
+17: bawds
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 1 0 0 
+2 5 4 0 
+0 3 0 0 
+0 0 0 0 
+--------
+18: aw
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+1 0 0 0 
+0 2 0 0 
+0 0 0 0 
+--------
+19: awe
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+1 0 0 0 
+0 2 3 0 
+0 0 0 0 
+--------
+20: awed
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+1 0 4 0 
+0 2 3 0 
+0 0 0 0 
+--------
+21: awes
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+1 4 0 0 
+0 2 3 0 
+0 0 0 0 
+--------
+22: saw
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+2 1 0 0 
+0 3 0 0 
+0 0 0 0 
+--------
+23: sawer
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+2 1 0 0 
+0 3 4 5 
+0 0 0 0 
+--------
+24: sawed
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+2 1 5 0 
+0 3 4 0 
+0 0 0 0 
+--------
+25: sab
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 3 0 0 
+2 1 0 0 
+0 0 0 0 
+0 0 0 0 
+--------
+26: swab
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 4 0 0 
+3 1 0 0 
+0 2 0 0 
+0 0 0 0 
+--------
+27: sew
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 1 0 0 
+0 3 2 0 
+0 0 0 0 
+--------
+28: ser
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 1 0 0 
+0 0 2 3 
+0 0 0 0 
+--------
+29: serf
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 1 0 4 
+0 0 2 3 
+0 0 0 0 
+--------
+30: set
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 1 0 0 
+0 0 2 0 
+0 0 0 3 
+--------
+31: de
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 0 1 0 
+0 0 2 0 
+0 0 0 0 
+--------
+32: dew
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 0 1 0 
+0 3 2 0 
+0 0 0 0 
+--------
+33: dews
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 4 1 0 
+0 3 2 0 
+0 0 0 0 
+--------
+34: dewy
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 0 1 0 
+0 3 2 0 
+4 0 0 0 
+--------
+35: deft
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 0 1 0 
+0 0 2 0 
+0 0 3 4 
+--------
+36: des
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 3 1 0 
+0 0 2 0 
+0 0 0 0 
+--------
+37: drew
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 0 1 0 
+0 4 3 2 
+0 0 0 0 
+--------
+38: fret
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 0 0 1 
+0 0 3 2 
+0 0 0 4 
+--------
+39: few
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 0 0 1 
+0 3 2 0 
+0 0 0 0 
+--------
+40: fer
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 0 0 1 
+0 0 2 3 
+0 0 0 0 
+--------
+41: fed
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 0 3 1 
+0 0 2 0 
+0 0 0 0 
+--------
+42: feds
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 4 3 1 
+0 0 2 0 
+0 0 0 0 
+--------
+43: fet
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 0 0 1 
+0 0 2 0 
+0 0 0 3 
+--------
+44: feh
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 0 0 1 
+0 0 2 0 
+0 3 0 0 
+--------
+45: we
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 0 0 0 
+0 1 2 0 
+0 0 0 0 
+--------
+46: wert
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 0 0 0 
+0 1 2 3 
+0 0 0 4 
+--------
+47: wed
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 0 3 0 
+0 1 2 0 
+0 0 0 0 
+--------
+48: weds
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 4 3 0 
+0 1 2 0 
+0 0 0 0 
+--------
+49: weft
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 0 0 0 
+0 1 2 0 
+0 0 3 4 
+--------
+50: wet
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 0 0 0 
+0 1 2 0 
+0 0 0 3 
+--------
+51: why
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 0 0 0 
+0 1 0 0 
+3 2 0 0 
+--------
+52: whet
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 0 0 0 
+0 1 3 0 
+0 2 0 4 
+--------
+53: was
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+2 3 0 0 
+0 1 0 0 
+0 0 0 0 
+--------
+54: wab
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 3 0 0 
+2 0 0 0 
+0 1 0 0 
+0 0 0 0 
+--------
+55: wabs
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 3 0 0 
+2 4 0 0 
+0 1 0 0 
+0 0 0 0 
+--------
+56: er
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 0 0 0 
+0 0 1 2 
+0 0 0 0 
+--------
+57: ef
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 0 0 0 
+0 0 1 0 
+0 0 2 0 
+--------
+58: eft
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 0 0 0 
+0 0 1 0 
+0 0 2 3 
+--------
+59: et
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 0 0 0 
+0 0 1 0 
+0 0 0 2 
+--------
+60: eh
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 0 0 0 
+0 0 1 0 
+0 2 0 0 
+--------
+61: es
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 2 0 0 
+0 0 1 0 
+0 0 0 0 
+--------
+62: re
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 0 0 0 
+0 0 2 1 
+0 0 0 0 
+--------
+63: red
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 0 3 0 
+0 0 2 1 
+0 0 0 0 
+--------
+64: reds
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 4 3 0 
+0 0 2 1 
+0 0 0 0 
+--------
+65: redd
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 4 
+0 0 3 0 
+0 0 2 1 
+0 0 0 0 
+--------
+66: ref
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 0 0 0 
+0 0 2 1 
+0 0 3 0 
+--------
+67: ret
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 0 0 0 
+0 0 2 1 
+0 0 0 3 
+--------
+68: res
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 3 0 0 
+0 0 2 1 
+0 0 0 0 
+--------
+69: resaw
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+4 3 0 0 
+0 5 2 1 
+0 0 0 0 
+--------
+70: he
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 0 0 0 
+0 0 2 0 
+0 1 0 0 
+--------
+71: hew
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 0 0 0 
+0 3 2 0 
+0 1 0 0 
+--------
+72: hews
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 4 0 0 
+0 3 2 0 
+0 1 0 0 
+--------
+73: her
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 0 0 0 
+0 0 2 3 
+0 1 0 0 
+--------
+74: herd
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 0 4 0 
+0 0 2 3 
+0 1 0 0 
+--------
+75: herds
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 5 4 0 
+0 0 2 3 
+0 1 0 0 
+--------
+76: heft
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 0 0 0 
+0 0 2 0 
+0 1 3 4 
+--------
+77: het
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 0 0 0 
+0 0 2 0 
+0 1 0 3 
+--------
+78: hes
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 3 0 0 
+0 0 2 0 
+0 1 0 0 
+--------
+79: trews
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 5 0 0 
+0 4 3 2 
+0 0 0 1 
+--------
+80: tref
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 0 0 0 
+0 0 3 2 
+0 0 4 1 
+--------
+81: tew
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 0 0 0 
+0 3 2 0 
+0 0 0 1 
+--------
+82: tews
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 4 0 0 
+0 3 2 0 
+0 0 0 1 
+--------
+83: ted
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 0 3 0 
+0 0 2 0 
+0 0 0 1 
+--------
+84: teds
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+0 0 0 0 
+0 4 3 0 
+0 0 2 0 
+0 0 0 1 
+--------
