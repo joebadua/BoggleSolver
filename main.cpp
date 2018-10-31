@@ -144,6 +144,3 @@ void printSteps(char board[][4], int steps[][4], ofstream& output)
     output << "--------" << endl;
 }
 
-
-
-
