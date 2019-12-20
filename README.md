@@ -1,7 +1,7 @@
 # Boggle Solver - C++
 Boggle is a game that involves a 4x4 alphabet-lettered-dice grid. The grid is randomized, and the player searches for English words in adjacencies. Program shows all possible combinations of words, and demonstrates a step-by-step process on how to find the word.
 
-Dictionary.txt is filled with 45k+ words that the program refers to when checking the board for English words.
+Dictionary.txt is filled with 45,000+ words that the program refers to when checking the board for English words.
 
 Output.txt is an example of a written output by the program, showing the step-by-step process of finding each possible word.
 
@@ -110,9 +110,12 @@ y h f t
 1 2 0 0 
 3 4 6 0 
 0 0 5 0 
-0 0 0 0 
+0 0 0 0
+
+...
 ```
 It returns the word found, the board, and an indexed version of the board displaying how to find the word.
 
 
-
+### Overall/TDLR
+This C++ program provides a step-by-step process to solving/finding different combinations of words on a Boggle board. It uses a tree with each node containing an array of 23 pointers corresponding to the 23 letters of an alphabet. Doing it this way provides a fast lookup time of O(n), as the largest possible word would contain 23 letters. 
