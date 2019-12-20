@@ -18,8 +18,8 @@ void Dictionary::addWord(string word) // a string from Dictionary.txt
                                              // of a single character of word 
                                              // (i.e A is 0, B is 1, C is 2...)  
         if(currNode->arr[index] == NULL) {   
-            currNode->arr[index] = new Node; // make a new node if pointning to nothing
-            (currNode->arr[index])->flag = false; // set false
+            currNode->arr[index] = new Node; // make a new node pointing to the corresponding letter in array
+            (currNode->arr[index])->flag = false; // set false since we're not done itereting through word
         }
         
         currNode = currNode->arr[index]; // next node
