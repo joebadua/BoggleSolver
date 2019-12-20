@@ -5,7 +5,7 @@ Dictionary.txt is filled with 45k+ words that the program refers to when checkin
 
 Output.txt is an example of a written output by the program, showing the step-by-step process of finding each possible word.
 
-# How does it work?
+## How does it work?
 The Dictionary header class creates a tree data structure where each level corresponds to a character of a dictionary word. Take a look at the addWord function:
 ```C++
 void Dictionary::addWord(string word)
