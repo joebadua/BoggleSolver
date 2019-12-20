@@ -15,7 +15,8 @@ void Dictionary::addWord(string word) // a string from Dictionary.txt
     for(int i = 0; i < word.length(); i++) {
         
         int index = (int)word[i] - (int)'a'; // index is holding the alphabetical position
-                                             // of a single char of word (i.e A is 0, B is 1, C is 2, so forth)   
+                                             // of a single char of word 
+                                             // (i.e A is 0, B is 1, C is 2, so forth)   
         if(currNode->arr[index] == NULL) {  
             currNode->arr[index] = new Node; 
             (currNode->arr[index])->flag = false;
