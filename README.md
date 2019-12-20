@@ -15,18 +15,18 @@ void Dictionary::addWord(string word) // a string from Dictionary.txt
     for(int i = 0; i < word.length(); i++) {
         
         int index = (int)word[i] - (int)'a'; // index is holding the alphabetical position
-                                             // of a single char of word 
-                                             // (i.e A is 0, B is 1, C is 2, so forth)   
-        if(currNode->arr[index] == NULL) {  
-            currNode->arr[index] = new Node; 
-            (currNode->arr[index])->flag = false;
+                                             // of a single character of word 
+                                             // (i.e A is 0, B is 1, C is 2...)  
+        if(currNode->arr[index] == NULL) {   
+            currNode->arr[index] = new Node; // make a new node if pointning to nothing
+            (currNode->arr[index])->flag = false; // set false
         }
         
-        currNode = currNode->arr[index];
+        currNode = currNode->arr[index]; // next node
     }
     
-    currNode->flag = true;
-    numWords++;
+    currNode->flag = true; // we have iterated through each character of the word
+    numWords++;            // therefore, set the boolean to true to define as a word
 }
 ```
 
