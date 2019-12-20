@@ -6,7 +6,9 @@ Dictionary.txt is filled with 45k+ words that the program refers to when checkin
 Output.txt is an example of a written output by the program, showing the step-by-step process of finding each possible word.
 
 ## How does it work?
-The Dictionary header class creates a tree data structure where each level corresponds to a character of a dictionary word. A single node in a tree holds an array arr[] of pointers that correspond to 23 letters of the alphabet, and a boolean flag determining whether or not it is a prefix/word. Take a look at the addWord function:
+
+### Storing Each Word
+The Dictionary.h file creates a tree data structure where each level corresponds to a character of a dictionary word. A single node in a tree holds an array arr[] of pointers that correspond to 23 letters of the alphabet, and a boolean flag determining whether or not it is a prefix/word. Take a look at the addWord function:
 ```C++
 void Dictionary::addWord(string word) // a string from Dictionary.txt
 {
@@ -29,27 +31,7 @@ void Dictionary::addWord(string word) // a string from Dictionary.txt
     numWords++;            // therefore, set the boolean to true to define as a word
 }
 ```
+It is a lot more efficient to store character-by-character rather than an entire string. With this, the program will a fast lookup time of O(n). For instance, the largest possible amount of characters a string could have as a word is 23 (corresponding to 23 characters in an alphabet). This means we will only have 23 comparisons. 
 
-Similarly, it searches through the tree almost the same way it adds to the tree.
-
-```C++
-bool Dictionary::isWord(string word)
-{
-    currNode = root;
-    bool isWord = false;
-    
-    for(int i = 0; i < word.length(); i++) {
-        
-        int index = (int)word[i] - (int)'a';
-  
-        if(currNode->arr[index] == NULL) // if we reach a stoping point
-            return false;                // then there is no word
-        
-        isWord = currNode->arr[index]->flag; 
-        currNode = currNode->arr[index];
-        
-    }
-    
-    return isWord;
-}
-```
+### Searching through the tree
+In main.cpp
