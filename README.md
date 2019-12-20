@@ -4,16 +4,3 @@ Boggle is a game that involves a 4x4 alphabet-lettered-dice grid. The grid is ra
 Dictionary.txt is filled with 45k+ words that the program refers to when checking the board for English words.
 
 Output.txt is an example of a written output by the program, showing the step-by-step process of finding each possible word.
-
-```C++
-Node* currNode = root; 
-
-for(int i = 0; i < (int)word.size(); i++){
-	int index = (int)word[i] - (int)'a';	
-		
-	if(currNode->arr[index] == NULL){
-		currNode->arr[index] = new Node;
-	}				
-	currNode = currNode->arr[index];
-}
- ```
