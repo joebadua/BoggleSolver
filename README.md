@@ -30,3 +30,26 @@ void Dictionary::addWord(string word) // a string from Dictionary.txt
 }
 ```
 
+Similarly, it searches through the tree almost the same way it adds to the tree.
+
+```C++
+bool Dictionary::isWord(string word)
+{
+    currNode = root;
+    bool isWord = false;
+    
+    for(int i = 0; i < word.length(); i++) {
+        
+        int index = (int)word[i] - (int)'a';
+  
+        if(currNode->arr[index] == NULL) // if we reach a stoping point
+            return false;                // then there is no word
+        
+        isWord = currNode->arr[index]->flag; 
+        currNode = currNode->arr[index];
+        
+    }
+    
+    return isWord;
+}
+```
