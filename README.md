@@ -66,3 +66,53 @@ void SearchForWord(int row, int col, Dictionary dict, Dictionary wordsFound, cha
 ```
 After passing its test cases that determine whether or not its a word/prefix, from the starting index, it goes through ALL possible rows/columns from the starting index.
 
+### How it looks
+
+Here's a small example of how the above is working on a higher level:
+
+Let's say we have the Boggle board:
+```
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+```
+Running this through the program would give us:
+```
+0: abase
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+1 2 0 0 
+3 4 0 0 
+0 0 5 0 
+0 0 0 0 
+--------
+1: abaser
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+1 2 0 0 
+3 4 0 0 
+0 0 5 6 
+0 0 0 0 
+--------
+3: abased
+a b c d 
+a s d f 
+q w e r 
+y h f t 
+
+1 2 0 0 
+3 4 6 0 
+0 0 5 0 
+0 0 0 0 
+```
+It returns the word found, the board, and an indexed version of the board displaying how to find the word.
+
+
+
