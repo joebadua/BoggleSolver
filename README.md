@@ -34,7 +34,7 @@ void Dictionary::addWord(string word) // a string from Dictionary.txt
 It is a lot more efficient to store character-by-character rather than an entire string. With this, the program will a fast lookup time of O(n). For instance, the largest possible amount of characters a string could have as a word is 23 (corresponding to 23 characters in an alphabet). This means we will only have 23 comparisons. 
 
 ### Searching through the tree
-In main.cpp, SolveBoard is what starts the searching. 
+In main.cpp, SolveBoard is what starts the searching. The Boggle board is a 4x4 char array. 
 ```C++
 void SolveBoard(char board[][4],int steps[][4], Dictionary& dict, Dictionary& wordsFound, bool printBoard)
 {
@@ -46,8 +46,9 @@ for (int r = 0; r < 4; r++) {
 ...
 }
 ```
-The Boggle board is a 4x4 char array. Here, it goes through each row/column as a starting index for the function SearchForWord.
+Here, it goes through each row/column as a starting index for the function SearchForWord.
 
+Search for word does a lot of recursion.
 ```C++
 void SearchForWord(int row, int col, Dictionary dict, Dictionary wordsFound, char board[][4], int steps[][4], int numofsteps, string currPrefix, bool printBoard, ofstream& output)
 {
@@ -63,5 +64,5 @@ void SearchForWord(int row, int col, Dictionary dict, Dictionary wordsFound, cha
 ...
 }
 ```
-
+After passing its test cases that determine whether or not its a word/prefix, from the starting index, it goes through ALL possible rows/columns from the starting index.
 
