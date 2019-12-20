@@ -43,5 +43,25 @@ for (int r = 0; r < 4; r++) {
     for (int c = 0; c < 4; c++) {
        SearchForWord(r, c, dict, wordsFound, board, steps, numofsteps, currPrefix, printBoard, output);
     }
+...
 }
 ```
+The Boggle board is a 4x4 char array. Here, it goes through each row/column as a starting index for the function SearchForWord.
+
+```C++
+void SearchForWord(int row, int col, Dictionary dict, Dictionary wordsFound, char board[][4], int steps[][4], int numofsteps, string currPrefix, bool printBoard, ofstream& output)
+{
+...
+    SearchForWord(row , col - 1, dict, wordsFound, board, steps, numofsteps, currPrefix, printBoard, output);
+    SearchForWord(row , col + 1, dict, wordsFound, board, steps, numofsteps, currPrefix, printBoard, output);
+    SearchForWord(row - 1 , col, dict, wordsFound, board, steps, numofsteps, currPrefix, printBoard, output);
+    SearchForWord(row + 1 , col, dict, wordsFound, board, steps, numofsteps, currPrefix, printBoard, output);
+    SearchForWord(row + 1 , col + 1, dict, wordsFound, board, steps, numofsteps, currPrefix, printBoard, output);
+    SearchForWord(row + 1 , col - 1, dict, wordsFound, board, steps, numofsteps, currPrefix, printBoard, output);
+    SearchForWord(row - 1 , col + 1, dict, wordsFound, board, steps, numofsteps, currPrefix, printBoard, output);
+    SearchForWord(row - 1 , col - 1, dict, wordsFound, board, steps, numofsteps, currPrefix, printBoard, output);
+...
+}
+```
+
+
